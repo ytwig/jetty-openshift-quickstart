@@ -10,7 +10,7 @@ fi
 
 ln -s ${OPENSHIFT_REPO_DIR}deployments webapps
 
-CMD="java -jar start.jar -Djetty.host=$OPENSHIFT_DIY_IP -Djetty.port=$OPENSHIFT_DIY_PORT"
+CMD="java -Xms384m -Xmx412m -jar start.jar -Djetty.host=$OPENSHIFT_DIY_IP -Djetty.port=$OPENSHIFT_DIY_PORT"
 
 nohup $CMD > $OPENSHIFT_DIY_LOG_DIR/server.log 2>&1 &
 

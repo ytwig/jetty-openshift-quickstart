@@ -6,6 +6,6 @@ Jetty is a Java web server (with some application server characteristics) for se
 
 Create new application
 
-    rhc app create -a jetty -t diy-0.1
+    rhc app create jetty diy-0.1
 
 and check [an article on the required steps to setup Jetty](https://openshift.redhat.com/community/blogs/jetty-on-openshift-lightweight-java-web-serving-for-the-cloud).

@@ -8,4 +8,4 @@ Create new application
 
     rhc app create jetty diy-0.1
 
-and check [an article on the required steps to setup Jetty](https://openshift.redhat.com/community/blogs/jetty-on-openshift-lightweight-java-web-serving-for-the-cloud).
+and check [an article on the required steps to setup Jetty](https://www.openshift.com/blogs/jetty-on-openshift-lightweight-java-web-serving-for-the-cloud).

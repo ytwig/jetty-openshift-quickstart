@@ -1,6 +1,6 @@
 #!/bin/sh
 
-JETTY_VERSION="8.1.11.v20130520"
+JETTY_VERSION="8.1.16.v20140903"
 
 cd $OPENSHIFT_DATA_DIR
 
@@ -28,6 +28,6 @@ else
   rm -rf jetty/contexts/*
   rm -rf jetty/webapps
 
-  curl -o maven.xml "https://raw.github.com/openshift-quickstart/jetty-openshift-quickstart/master/maven.xml"
+  curl -o maven.xml "https://raw.githubusercontent.com/openshift-quickstart/jetty-openshift-quickstart/master/maven.xml"
 
 fi

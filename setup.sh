@@ -16,7 +16,7 @@ else
     rm -rf jetty
   fi
 
-  curl -o jetty.tar.gz "http://download.eclipse.org/jetty/stable-8/dist/jetty-distribution-${JETTY_VERSION}.tar.gz"
+  curl -o jetty.tar.gz "http://download.eclipse.org/jetty/${JETTY_VERSION}/dist/jetty-distribution-${JETTY_VERSION}.tar.gz"
 
   tar -xf jetty.tar.gz
   rm jetty.tar.gz
